@@ -1,7 +1,14 @@
-ul {
-  text-align: justify;
+td {
+  text-align: left;
 }
-.skills-teach{
-  display: flex;
-  justify-content: center;
+
+th {
+  font-size: larger;
+  padding-top: 20px;
 }
+
+th, td {
+  border-bottom: 1px solid #ddd;
+}
+
+

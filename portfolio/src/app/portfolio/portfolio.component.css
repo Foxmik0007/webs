@@ -4,3 +4,18 @@
   margin: auto;
   max-width: 1000px;
 }
+
+p {
+  text-align: justify;
+  padding-top: 40px;
+}
+
+.mainmenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.experience, .skills, .projects, .contact {
+  padding-top: 60px;
+}
