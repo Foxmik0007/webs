@@ -1,3 +1,17 @@
-th {
-  padding: 20px;
+@media screen {
+  .conteneur {
+    display: flex;
+    justify-content: space-around;
+  }
+
+}
+
+@media screen and (max-width: 1000px){
+
+  .conteneur {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+  }
+
 }
