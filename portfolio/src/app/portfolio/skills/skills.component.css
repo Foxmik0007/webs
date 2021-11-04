@@ -1,7 +1,18 @@
-@media screen {
+@media screen and (min-width: 1000px) and (max-width: 1920px){
   .conteneur {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+  }
+
+  .conteneur p {
+    border-bottom: solid gainsboro;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+  }
+
+  .skill {
+    width: 200px;
   }
 
 }
@@ -11,7 +22,17 @@
   .conteneur {
     display: flex;
     flex-direction: column;
-    width: 400px;
+    padding: 175px;
+  }
+  .conteneur p {
+    border-bottom: solid gainsboro;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+  }
+
+  .skill {
+    width: 200px;
   }
 
 }
