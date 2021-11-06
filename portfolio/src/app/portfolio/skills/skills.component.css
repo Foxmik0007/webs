@@ -1,38 +1,39 @@
-@media screen and (min-width: 1000px) and (max-width: 1920px){
+@media screen and (max-width: 3840px){
   .conteneur {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
   }
 
   .conteneur p {
-    border-bottom: solid gainsboro;
     text-align: center;
     font-weight: bold;
     font-size: larger;
+
   }
 
   .skill {
-    width: 200px;
+    text-align: start;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: lightgray;
+    border-spacing: 20px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 25px;
   }
 
-}
-
-@media screen and (max-width: 1000px){
-
-  .conteneur {
-    display: flex;
-    flex-direction: column;
-    padding: 175px;
-  }
-  .conteneur p {
-    border-bottom: solid gainsboro;
-    text-align: center;
-    font-weight: bold;
-    font-size: larger;
+  .skill-content{
+    padding-top: 15px;
   }
 
-  .skill {
-    width: 200px;
+  .skill-content a, img {
+    margin-bottom: 10px;
   }
+
+  .skill p {
+
+  }
+
 
 }

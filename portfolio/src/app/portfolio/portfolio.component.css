@@ -1,92 +1,12 @@
-@media screen and (max-width: 3840px) and (min-width: 1920px){
+@media screen {
   .content{
     text-align: center;
-    display: table;
-    max-width: 2500px;
+    width: content-box;
   }
 
   p {
     text-align: justify;
-    padding-top: 40px;
   }
 
-  .mainmenu {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-  }
-
-  .experience, .skills, .projects, .contact {
-    padding-top: 60px;
-  }
-}
-@media screen and (max-width: 1920px) and (min-width: 1280px){
-  .content{
-    text-align: center;
-    display: table;
-    margin: auto;
-    max-width: 1000px;
-  }
-
-  p {
-    text-align: justify;
-    padding-top: 40px;
-  }
-
-  .mainmenu {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-  }
-
-  .experience, .skills, .projects, .contact {
-    padding-top: 60px;
-  }
 }
 
-@media screen and (min-width: 500px) and (max-width:1280px){
-  .content{
-    text-align: center;
-    display: table;
-    margin: auto;
-    max-width: 750px;
-  }
-
-  p {
-    text-align: justify;
-    padding-top: 40px;
-  }
-
-  .mainmenu {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-  }
-
-  .experience, .skills, .projects, .contact {
-    padding-top: 45px;
-  }
-}
-
-@media screen and (max-width: 500px) and (min-width: 0px){
-  .content{
-    text-align: center;
-    display: table;
-    margin: auto;
-    max-width: 250px;
-  }
-
-  p {
-    padding-top: 20px;
-  }
-
-  .mainmenu {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-  }
-
-  .experience, .skills, .projects, .contact {
-    padding-top: 30px;
-  }
-}
